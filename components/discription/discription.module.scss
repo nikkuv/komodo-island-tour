@@ -1,0 +1,26 @@
+.discription {
+    margin:  2rem;
+    width: 100vw;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+.mask {
+    display: inline-flex;
+    overflow: hidden;
+    position: relative;
+    margin-right: 2px;
+}
+
+.words {
+    font-size: 2rem;
+}
+
+.discriptionDiv {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+

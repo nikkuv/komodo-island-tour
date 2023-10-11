@@ -1,0 +1,80 @@
+/* styles/ImageSlider.module.scss */
+.imageSliderContainer{
+  height: 100%;
+  max-width: 1440px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ImageSlider {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.swiperContainer {
+  position: relative;
+}
+
+.swiperContainer::before{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 150%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: -25%;
+  top: -80%;
+  z-index: 10;
+}
+
+.swiperContainer::after{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 150%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: -25%;
+  bottom: -80%;
+  z-index: 10;
+}
+
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phraseMask {
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.title {
+  max-width: 514px;
+  font: 600 64px Inter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  line-height: 80px;
+  overflow: hidden;
+  margin: 0 5px;
+}

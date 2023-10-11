@@ -1,0 +1,31 @@
+.navigationBar {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigationLinksContainer {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  // border: 2px solid black;
+}
+
+.navigationLink {
+  flex: 0 0 auto;
+  font: 400 20px Inter;
+  color: #0a0a0a;
+  margin: 0;
+}
+
+.mask {
+    display: inline-flex;
+    overflow: hidden;
+    position: relative;
+    margin-right: 2px;
+}

@@ -1,0 +1,23 @@
+.emailButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 385px;
+  padding-bottom: 385px;
+  background: white;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.emailBtn {
+  display: block;
+  width: 800px;
+  height: 130px;
+  font: 400 32px Inter;
+  color: black;
+  text-transform: lowercase;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #777777;
+}

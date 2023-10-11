@@ -1,0 +1,36 @@
+.tourPackageSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 100vh;
+}
+
+.tourPackageHeading {
+  font: 500 26px Inter;
+  color: black;
+}
+
+.tourPackageDescription {
+  max-width: 953px;
+  margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phraseMask {
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.word{
+  font: 500 52px/80.66666412353516% Inter;
+  color: black;
+  text-align: center;
+  line-height: 4rem;
+  margin: 0 10px;
+}

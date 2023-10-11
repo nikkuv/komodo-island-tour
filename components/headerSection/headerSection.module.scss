@@ -1,0 +1,96 @@
+.tourPackageSection {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  margin: 0 auto;
+}
+
+.tourPackageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 30px;
+}
+
+.tourPackageDescription {
+  font: 400 16px Inter;
+  color: #898989;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.phrase {
+  max-width: 514px;
+  font: 600 64px Inter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #0a0a0a;
+  line-height: 80px;
+  overflow: hidden;
+  margin: 0 5px;
+}
+
+.phraseMask {
+  display: inline-flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.headerImgContainer {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.headerImage {
+  width: 100%;
+  padding-bottom: 56.25%; /* 9/16 * 100% = 56.25% for 16:9 aspect ratio */
+  background: url(https://s3-alpha-sig.figma.com/img/e709/1608/a868d20c803c3562595354ef7dc0bd2b?Expires=1697414400&Signature=UalSdnqBmK5jc9KBgTgY93iELpdx6GuTvt2NH26K1h1sETJfSJNj6T9L1Wm-~Wcbn66FV6eTB0ygcZpIOii9t2D3kQsAZMTqqTJkGAQrUqmTF3ViZy8GjHIhrJyb4g9TJHu-5mylsfBC3RnTg6NN2d~HTDAYmQL6I9442zMnsPIY6SiY-9Zkto49OXltAQEANqn9g55kuliKfwDe4sQ-4fzAdwqX7KrRgTLjjeWNwjL0PRG-E4mE~kUa6LC8bOBO91fb8VlgQGGAob42dAg6IDmfEx~xj~KF9-EwhAhT0WXM9yZVXgwugbPB8LyAzApEWVC6fOwPcn7Tkxrad2dKlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.outerCircle {
+  position: absolute;
+  top: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.innerCircle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,80 @@
+.pricingCard {
+  // width: 400px;
+  // height: 600px;
+  // border: 2px solid black;
+}
+
+.pricingSection{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+}
+
+.package1Container {
+  padding: 2rem;
+  border-bottom: 2px dotted black;
+  background-color: white;
+}
+
+.cardSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.pricingCard {
+  padding: 2rem;
+  border: 2px solid black;
+  position: relative;
+}
+
+.pricingCard::before {
+  content: '';
+  position: absolute;
+  left: 43%;
+  top: -20px;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.pricingCard::after {
+  content: '';
+  position: absolute;
+  left: 43%;
+  bottom: -20px;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.itineraryContainer {
+  padding: 2rem;
+  background-color: white;
+}
+
+.bookingCardBtn {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+.itineraryStep {
+  padding: 8px 0;
+}

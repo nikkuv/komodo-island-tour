@@ -1,0 +1,28 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  border-bottom: 1px solid #eee;
+}
+
+.headermask{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+}
+
+.headingTitle {
+  font: 600 26px Inter;
+  color: #0a0a0a;
+  margin: 0;
+}
+
+.motionspan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 1024px;
+}
